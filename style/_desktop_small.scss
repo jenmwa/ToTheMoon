@@ -1,0 +1,96 @@
+        nav ul li:hover {
+        text-decoration-line: underline;
+        text-decoration-color: #d200a2;
+        text-decoration-thickness: 5px;
+        text-underline-offset: 5px;
+    }
+
+    .hero {
+        background-image: url("../img/to-the-moon_astronaut_adam-miller-unsplash_.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .hero-text {
+        height: 55vh;
+    }
+
+    .hero-text h1 {
+        font-size: 7vmax;
+    }
+
+    .main {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("../img/to-the-moon_stars_raphael-nogueira_unsplash.jpg");
+        padding: 0 6rem 4rem 6rem;
+    }
+
+    .space-ventures {
+        margin-top: 3.6rem;
+    }
+
+    .space-ventures :first-of-type {
+        font-size: 4.5rem;
+    }
+
+    .space-ventures :nth-of-type(2) {
+        font-size: 6rem;
+        top: -3rem;
+    }
+
+    .ground-control h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+    }
+
+    .ground-control p,
+    .major-tom p {
+        margin-bottom: 0.225rem;
+    }
+
+    .floating {
+        margin-top: 2rem;
+        margin-left: -1rem;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .floating:before {
+        content: "“";
+        top: 1rem;
+        left: 1.5rem;
+    }
+
+    .floating:after {
+        content: "”";
+        bottom: 0.5rem;
+        left: 7rem;
+    }
+
+    .hidden-quote {
+        display: block;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        max-width: 85%;
+    }
+
+    .major-tom {
+        margin-bottom: 1rem;
+    }
+
+    .major-tom img {
+        display: block;
+        width: 100px;
+        height: auto;
+        transform: rotate(3deg);
+        float: right;
+        margin: 0.5rem;
+
+    }
+    footer {
+        padding: 0.75rem 8rem 0.75rem 8rem;
+    }
