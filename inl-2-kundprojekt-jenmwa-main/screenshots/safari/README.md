@@ -1,0 +1,1 @@
+OBS! Har du Windows ska du _inte_ ladda ner Safari.
